@@ -65,9 +65,4 @@ public class Person2 {
 	  return name + calc(input);
 	}
 
-    public static void main(String[] args) {
-	    Person2 p = new Person2("bill22");
-	    System.out.println(p.toString("bill22"));
-    }
-
 }
