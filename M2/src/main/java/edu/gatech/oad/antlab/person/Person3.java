@@ -41,7 +41,7 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 		int len = input.length();
-		String blankstr = ""
+		String blankstr = "";
 		for (int i = 0; i < len; i++) {
 			char thechar = input.charAt(len-i);
 			blankstr = blankstr + thechar;

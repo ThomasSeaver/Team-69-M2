@@ -30,12 +30,12 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-		if (input.length > 2) {
+		if (input.length() > 2) {
 			return (input.substring(2) + input.substring(0, 2));
 		} else {
 			return input;
 		}
-		//this is the same way that Oscar did it. We can't really think
+		//this is the same way that Thomas did it. We can't really think
 		//of a sufficiently different way to do this.
 	}
 	
