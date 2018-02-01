@@ -43,7 +43,7 @@ public class Person3 {
 		int len = input.length();
 		String blankstr = "";
 		for (int i = 0; i < len; i++) {
-			char thechar = input.charAt(len-i);
+			char thechar = input.charAt(len-i-1);
 			blankstr = blankstr + thechar;
 		}
 		return blankstr;
